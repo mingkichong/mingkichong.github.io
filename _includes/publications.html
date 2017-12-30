@@ -1,24 +1,45 @@
 <div class="user-details">
- 	<h1> Publications </h1>
- 	<div id="pub_google_scholar" >
- 		<a href="https://scholar.google.nl/citations?user={{site.google-scholar.user}}" target="_blank">My Google Scholar</a>
- 	</div>
-  	<div align="center">
-	  	<ul style="width:65%;">
-		  	<li id="pub" align="left">
-		  		<span class="pub_title">__paper_title__ -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span>
-		  		<p>
-		  			<span class="pub_author">__authors__ -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span>
-		  			<br/>
-		  			<span class="pub_venue">__publication_venue__ -- Journal / Conference Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span>,
-		  			<span class="pub_venue_city">__city__</span>,
-		  			<span class="pub_pages">__pages__</span>,
-		  			<span class="pub_year">__year__</span>
-		  			<br/>
-		  			<span class="pub_highlight">(__highlight__)</span><br/>
-		  		</p>
-		  		<span class="pub_link"><a href="#">__doi/link__</a></span>
-		  	</li>
-	  	</ul>
-	</div>
+    <h1> Publications </h1>
+    <div id="pub_google_scholar" >
+        <a href="https://scholar.google.nl/citations?user={{site.google-scholar.user}}" target="_blank">My Google Scholar</a>
+    </div>
+    <div align="center">
+        <h3>Journals</h3>
+        <ul id="pub_ul">
+            {% for pub_entry in site.data.publications %}
+                {% if pub_entry.EntryType == "article" %}
+                    <li id="pub" align="left">
+                        <span class="pub_title">{{pub_entry.Fields.title}}</span>
+                        <p>
+                            <span class="pub_author">{{pub_entry.Fields.author | replace: ' and ', ', ' | replace: 'Ming Ki Chong', '<span class="pub_author_me">Ming Ki Chong</span>' }}</span>
+                            <br/>
+                            <span class="pub_journal">{{pub_entry.Fields.journal}}</span>.
+                            <span class="pub_j_volume">{{pub_entry.Fields.volume}}</span>(<span class="pub_j_number">{{pub_entry.Fields.number}}</span>):
+                            <span class="pub_pages">{{pub_entry.Fields.pages}}</span> (<span class="pub_year">{{pub_entry.Fields.year}}</span>)
+                            <br/>
+                            <span class="pub_link"><a href="{{pub_entry.Fields.url}}" target="_blank">{{pub_entry.Fields.doi}}</a></span>
+                        </p>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <h3>Conferences</h3>
+        <ul id="pub_ul">
+            {% for pub_entry in site.data.publications %}
+                {% if pub_entry.EntryType == "inproceedings" %}
+                    <li id="pub" align="left">
+                        <span class="pub_title">{{pub_entry.Fields.title}}</span>
+                        <p>
+                            <span class="pub_author">{{pub_entry.Fields.author | replace: ' and ', ', ' | replace: 'Ming Ki Chong', '<span class="pub_author_me">Ming Ki Chong</span>' }}</span>
+                            <br/>
+                            In <span class="pub_venue">{{pub_entry.Fields.booktitle}}</span>.
+                            Pages <span class="pub_pages">{{pub_entry.Fields.pages}}</span>.
+                            <br/>
+                            <span class="pub_link"><a href="{{pub_entry.Fields.url}}" target="_blank">{{pub_entry.Fields.doi}}</a></span>
+                        </p>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
 </div>

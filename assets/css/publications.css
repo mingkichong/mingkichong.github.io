@@ -1,5 +1,9 @@
 :root {
-  --p-vertical-margin: 4px;
+  --p-vertical-margin: 2px;
+}
+
+#pub_ul {
+	width:50%;
 }
 
 #pub_google_scholar {
@@ -14,6 +18,7 @@
 }
 
 #pub {
+	margin-top: 10px;
 }
 #pub a {
 	color: #006666;
@@ -40,6 +45,10 @@
 	font-style: italic;
 }
 
+.pub_author_me{
+	text-decoration: underline;
+}
+
 .pub_venue {
 }
 
@@ -47,6 +56,18 @@
 }
 
 .pub_pages {
+}
+
+.pub_journal{
+
+}
+
+.pub_j_volume {
+
+}
+
+.pub_j_number {
+
 }
 
 .pub_highlight {

@@ -1,0 +1,296 @@
+[
+   {
+      "ObjectType":"entry",
+      "EntryType":"article",
+      "EntryKey":"DBLP:journals/puc/ZhangPCABG17",
+      "Fields":{
+         "author":"Yanxia Zhang and Ken Pfeuffer and Ming Ki Chong and Jason Alexander and Andreas Bulling and Hans Gellersen",
+         "title":"Look together: using gaze for assisting co-located collaborative search",
+         "journal":"Personal and Ubiquitous Computing",
+         "volume":"21",
+         "number":"1",
+         "pages":"173--186",
+         "year":"2017",
+         "url":"https://doi.org/10.1007/s00779-016-0969-x",
+         "doi":"10.1007/s00779-016-0969-x",
+         "timestamp":"Sun, 28 May 2017 01:00:00 +0200",
+         "biburl":"http://dblp.org/rec/bib/journals/puc/ZhangPCABG17",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"article",
+      "EntryKey":"DBLP:journals/interactions/JokelaCLG15",
+      "Fields":{
+         "author":"Tero Jokela and Ming Ki Chong and Andrés Lucero and Hans Gellersen",
+         "title":"Connecting devices for collaborative interactions",
+         "journal":"Interactions",
+         "volume":"22",
+         "number":"4",
+         "pages":"39--43",
+         "year":"2015",
+         "url":"http://doi.acm.org/10.1145/2776887",
+         "doi":"10.1145/2776887",
+         "timestamp":"Sun, 12 Jul 2015 01:00:00 +0200",
+         "biburl":"http://dblp.org/rec/bib/journals/interactions/JokelaCLG15",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"article",
+      "EntryKey":"DBLP:journals/puc/SimeoneCSG15",
+      "Fields":{
+         "author":"Adalberto Lafcadio Simeone and Ming Ki Chong and Corina Sas and Hans Gellersen",
+         "title":"Select & Apply: understanding how users act upon objects across devices",
+         "journal":"Personal and Ubiquitous Computing",
+         "volume":"19",
+         "number":"5-6",
+         "pages":"881--896",
+         "year":"2015",
+         "url":"https://doi.org/10.1007/s00779-015-0836-1",
+         "doi":"10.1007/s00779-015-0836-1",
+         "timestamp":"Wed, 14 Jun 2017 01:00:00 +0200",
+         "biburl":"http://dblp.org/rec/bib/journals/puc/SimeoneCSG15",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"article",
+      "EntryKey":"DBLP:journals/puc/ZhangCMBG15",
+      "Fields":{
+         "author":"Yanxia Zhang and Ming Ki Chong and Jörg Müller and Andreas Bulling and Hans Gellersen",
+         "title":"Eye tracking for public displays in the wild",
+         "journal":"Personal and Ubiquitous Computing",
+         "volume":"19",
+         "number":"5-6",
+         "pages":"967--981",
+         "year":"2015",
+         "url":"https://doi.org/10.1007/s00779-015-0866-8",
+         "doi":"10.1007/s00779-015-0866-8",
+         "timestamp":"Sun, 28 May 2017 01:00:00 +0200",
+         "biburl":"http://dblp.org/rec/bib/journals/puc/ZhangCMBG15",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"inproceedings",
+      "EntryKey":"DBLP:conf/interact/ChongWRA15",
+      "Fields":{
+         "author":"Ming Ki Chong and Jon Whittle and Umar Rashid and Chee Siang Ang",
+         "title":"Cue Now, Reflect Later: A Study of Delayed Reflection of Diary Events",
+         "booktitle":"Human-Computer Interaction - INTERACT 2015 - 15th IFIP TC 13 International Conference, Bamberg, Germany, September 14-18, 2015, Proceedings, Part III",
+         "pages":"367--375",
+         "year":"2015",
+         "crossref":"DBLP:conf/interact/2015-3",
+         "url":"https://doi.org/10.1007/978-3-319-22698-9_24",
+         "doi":"10.1007/978-3-319-22698-9_24",
+         "timestamp":"Thu, 15 Jun 2017 21:35:30 +0200",
+         "biburl":"http://dblp.org/rec/bib/conf/interact/ChongWRA15",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"inproceedings",
+      "EntryKey":"DBLP:conf/uist/PfeufferACZG15",
+      "Fields":{
+         "author":"Ken Pfeuffer and Jason Alexander and Ming Ki Chong and Yanxia Zhang and Hans Gellersen",
+         "title":"Gaze-Shifting: Direct-Indirect Input with Pen and Touch Modulated by Gaze",
+         "booktitle":"Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology, UIST 2015, Charlotte, NC, USA, November 8-11, 2015",
+         "pages":"373--383",
+         "year":"2015",
+         "crossref":"DBLP:conf/uist/2015",
+         "url":"http://doi.acm.org/10.1145/2807442.2807460",
+         "doi":"10.1145/2807442.2807460",
+         "timestamp":"Tue, 10 Nov 2015 13:43:54 +0100",
+         "biburl":"http://dblp.org/rec/bib/conf/uist/PfeufferACZG15",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"article",
+      "EntryKey":"DBLP:journals/csur/ChongMG14",
+      "Fields":{
+         "author":"Ming Ki Chong and Rene Mayrhofer and Hans Gellersen",
+         "title":"A Survey of User Interaction for Spontaneous Device Association",
+         "journal":"ACM Comput. Surv.",
+         "volume":"47",
+         "number":"1",
+         "pages":"8:1--8:40",
+         "year":"2014",
+         "url":"http://doi.acm.org/10.1145/2597768",
+         "doi":"10.1145/2597768",
+         "timestamp":"Mon, 05 Jun 2017 01:00:00 +0200",
+         "biburl":"http://dblp.org/rec/bib/journals/csur/ChongMG14",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"inproceedings",
+      "EntryKey":"DBLP:conf/huc/ZhangMCBG14",
+      "Fields":{
+         "author":"Yanxia Zhang and Jörg Müller and Ming Ki Chong and Andreas Bulling and Hans Gellersen",
+         "title":"GazeHorizon: enabling passers-by to interact with public displays by gaze",
+         "booktitle":"The 2014 ACM Conference on Ubiquitous Computing, UbiComp '14, Seattle, WA, USA, September 13-17, 2014",
+         "pages":"559--563",
+         "year":"2014",
+         "crossref":"DBLP:conf/huc/2014",
+         "url":"http://doi.acm.org/10.1145/2632048.2636071",
+         "doi":"10.1145/2632048.2636071",
+         "timestamp":"Wed, 29 Mar 2017 16:45:25 +0200",
+         "biburl":"http://dblp.org/rec/bib/conf/huc/ZhangMCBG14",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"inproceedings",
+      "EntryKey":"DBLP:conf/uist/PfeufferACG14",
+      "Fields":{
+         "author":"Ken Pfeuffer and Jason Alexander and Ming Ki Chong and Hans Gellersen",
+         "title":"Gaze-touch: combining gaze with multi-touch for interaction on the same surface",
+         "booktitle":"The 27th Annual ACM Symposium on User Interface Software and Technology, UIST '14, Honolulu, HI, USA, October 5-8, 2014",
+         "pages":"509--518",
+         "year":"2014",
+         "crossref":"DBLP:conf/uist/2014",
+         "url":"http://doi.acm.org/10.1145/2642918.2647397",
+         "doi":"10.1145/2642918.2647397",
+         "timestamp":"Wed, 01 Oct 2014 15:06:05 +0200",
+         "biburl":"http://dblp.org/rec/bib/conf/uist/PfeufferACG14",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"inproceedings",
+      "EntryKey":"DBLP:conf/chi/ChongG13",
+      "Fields":{
+         "author":"Ming Ki Chong and Hans-Werner Gellersen",
+         "title":"How groups of users associate wireless devices",
+         "booktitle":"2013 ACM SIGCHI Conference on Human Factors in Computing Systems, CHI '13, Paris, France, April 27 - May 2, 2013",
+         "pages":"1559--1568",
+         "year":"2013",
+         "crossref":"DBLP:conf/chi/2013",
+         "url":"http://doi.acm.org/10.1145/2470654.2466207",
+         "doi":"10.1145/2470654.2466207",
+         "timestamp":"Fri, 03 May 2013 13:46:20 +0200",
+         "biburl":"http://dblp.org/rec/bib/conf/chi/ChongG13",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"article",
+      "EntryKey":"DBLP:journals/puc/ChongG12",
+      "Fields":{
+         "author":"Ming Ki Chong and Hans Gellersen",
+         "title":"Usability classification for spontaneous device association",
+         "journal":"Personal and Ubiquitous Computing",
+         "volume":"16",
+         "number":"1",
+         "pages":"77--89",
+         "year":"2012",
+         "url":"https://doi.org/10.1007/s00779-011-0421-1",
+         "doi":"10.1007/s00779-011-0421-1",
+         "timestamp":"Sun, 28 May 2017 01:00:00 +0200",
+         "biburl":"http://dblp.org/rec/bib/journals/puc/ChongG12",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"inproceedings",
+      "EntryKey":"DBLP:conf/chi/ChongG11",
+      "Fields":{
+         "author":"Ming Ki Chong and Hans Gellersen",
+         "title":"How users associate wireless devices",
+         "booktitle":"Proceedings of the International Conference on Human Factors in Computing Systems, CHI 2011, Vancouver, BC, Canada, May 7-12, 2011",
+         "pages":"1909--1918",
+         "year":"2011",
+         "crossref":"DBLP:conf/chi/2011",
+         "url":"http://doi.acm.org/10.1145/1978942.1979219",
+         "doi":"10.1145/1978942.1979219",
+         "timestamp":"Wed, 11 May 2011 08:48:32 +0200",
+         "biburl":"http://dblp.org/rec/bib/conf/chi/ChongG11",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"inproceedings",
+      "EntryKey":"DBLP:conf/mhci/ChongMG10",
+      "Fields":{
+         "author":"Ming Ki Chong and Gary Marsden and Hans Gellersen",
+         "title":"GesturePIN: using discrete gestures for associating mobile devices",
+         "booktitle":"Proceedings of the 12th Conference on Human-Computer Interaction with Mobile Devices and Services, Mobile HCI 2010, Lisbon, Portugal, September 7-10, 2010",
+         "pages":"261--264",
+         "year":"2010",
+         "crossref":"DBLP:conf/mhci/2010",
+         "url":"http://doi.acm.org/10.1145/1851600.1851644",
+         "doi":"10.1145/1851600.1851644",
+         "timestamp":"Mon, 11 Apr 2011 13:07:44 +0200",
+         "biburl":"http://dblp.org/rec/bib/conf/mhci/ChongMG10",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"inproceedings",
+      "EntryKey":"DBLP:conf/nordichi/SchmidtCG10",
+      "Fields":{
+         "author":"Dominik Schmidt and Ming Ki Chong and Hans Gellersen",
+         "title":"HandsDown: hand-contour-based user identification for interactive surfaces",
+         "booktitle":"Proceedings of the 6th Nordic Conference on Human-Computer Interaction 2010, Reykjavik, Iceland, October 16-20, 2010",
+         "pages":"432--441",
+         "year":"2010",
+         "crossref":"DBLP:conf/nordichi/2010",
+         "url":"http://doi.acm.org/10.1145/1868914.1868964",
+         "doi":"10.1145/1868914.1868964",
+         "timestamp":"Mon, 14 Feb 2011 12:44:09 +0100",
+         "biburl":"http://dblp.org/rec/bib/conf/nordichi/SchmidtCG10",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"inproceedings",
+      "EntryKey":"DBLP:conf/tabletop/SchmidtCG10",
+      "Fields":{
+         "author":"Dominik Schmidt and Ming Ki Chong and Hans Gellersen",
+         "title":"IdLenses: dynamic personal areas on shared surfaces",
+         "booktitle":"ACM International Conference on Interactive Tabletops and Surfaces, ITS 2010, Saarbrücken, Germany, November 7-10, 2010",
+         "pages":"131--134",
+         "year":"2010",
+         "crossref":"DBLP:conf/tabletop/2010",
+         "url":"http://doi.acm.org/10.1145/1936652.1936678",
+         "doi":"10.1145/1936652.1936678",
+         "timestamp":"Mon, 15 Aug 2011 17:10:29 +0200",
+         "biburl":"http://dblp.org/rec/bib/conf/tabletop/SchmidtCG10",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   },
+   {
+      "ObjectType":"entry",
+      "EntryType":"inproceedings",
+      "EntryKey":"DBLP:conf/interact/ChongM09",
+      "Fields":{
+         "author":"Ming Ki Chong and Gary Marsden",
+         "title":"Exploring the Use of Discrete Gestures for Authentication",
+         "booktitle":"Human-Computer Interaction - INTERACT 2009, 12th IFIP TC 13 International Conference, Uppsala, Sweden, August 24-28, 2009, Proceedings, Part II",
+         "pages":"205--213",
+         "year":"2009",
+         "crossref":"DBLP:conf/interact/2009-2",
+         "url":"https://doi.org/10.1007/978-3-642-03658-3_27",
+         "doi":"10.1007/978-3-642-03658-3_27",
+         "timestamp":"Wed, 24 May 2017 08:28:01 +0200",
+         "biburl":"http://dblp.org/rec/bib/conf/interact/ChongM09",
+         "bibsource":"dblp computer science bibliography, http://dblp.org"
+      }
+   }
+]
