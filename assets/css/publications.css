@@ -1,0 +1,59 @@
+:root {
+  --p-vertical-margin: 4px;
+}
+
+#pub_google_scholar {
+	font-size: 18px;
+}
+#pub_google_scholar a {
+	color: #006666;
+	text-decoration: none;
+}
+#pub_google_scholar a:hover {
+	text-decoration: underline;
+}
+
+#pub {
+}
+#pub a {
+	color: #006666;
+	text-decoration: none;
+}
+#pub a:hover {
+	text-decoration: underline;
+}
+#pub p {
+	font-size: 14px;
+	margin-top: var(--p-vertical-margin);
+	margin-bottom: var(--p-vertical-margin);
+}
+
+.pub_title {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.pub_year {
+}
+
+.pub_author {
+	font-style: italic;
+}
+
+.pub_venue {
+}
+
+.pub_venue_city {
+}
+
+.pub_pages {
+}
+
+.pub_highlight {
+	font-weight: bold;
+}
+
+.pub_link {
+	font-style: italic;
+	font-size: 12px;
+}
