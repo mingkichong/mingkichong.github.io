@@ -21,4 +21,8 @@ google-analytics:
 google-scholar:
   user: 'SGrCJqMAAAAJ'
 
+publications:
+  my_author_name: 'Ming Ki Chong'
+  highlight_my_author_name: true
+
 exclude: ['package.json', 'src' , 'node_modules']

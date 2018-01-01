@@ -11,7 +11,12 @@
                     <li id="pub" align="left">
                         <span class="pub_title">{{pub_entry.Fields.title}}</span>
                         <p>
-                            <span class="pub_author">{{pub_entry.Fields.author | replace: ' and ', ', ' | replace: 'Ming Ki Chong', '<span class="pub_author_me">Ming Ki Chong</span>' }}</span>
+                            {% assign list_of_authors = pub_entry.Fields.author | replace: ' and ', ', ' %}
+                            {% if site.publications.highlight_my_author_name %}
+                                {% assign highlighted_my_author_name = site.publications.my_author_name | prepend: '<span class="pub_author_me">' | append: '</span>' %}
+                                {% assign list_of_authors = list_of_authors | replace: site.publications.my_author_name, highlighted_my_author_name %}
+                            {% endif %}
+                            <span class="pub_author">{{list_of_authors}}</span>
                             <br/>
                             <span class="pub_journal">{{pub_entry.Fields.journal}}</span>.
                             <span class="pub_j_volume">{{pub_entry.Fields.volume}}</span>(<span class="pub_j_number">{{pub_entry.Fields.number}}</span>):
@@ -30,7 +35,12 @@
                     <li id="pub" align="left">
                         <span class="pub_title">{{pub_entry.Fields.title}}</span>
                         <p>
-                            <span class="pub_author">{{pub_entry.Fields.author | replace: ' and ', ', ' | replace: 'Ming Ki Chong', '<span class="pub_author_me">Ming Ki Chong</span>' }}</span>
+                            {% assign list_of_authors = pub_entry.Fields.author | replace: ' and ', ', ' %}
+                            {% if site.publications.highlight_my_author_name %}
+                                {% assign highlighted_my_author_name = site.publications.my_author_name | prepend: '<span class="pub_author_me">' | append: '</span>' %}
+                                {% assign list_of_authors = list_of_authors | replace: site.publications.my_author_name, highlighted_my_author_name %}
+                            {% endif %}
+                            <span class="pub_author">{{list_of_authors}}</span>
                             <br/>
                             In <span class="pub_venue">{{pub_entry.Fields.booktitle}}</span>.
                             Pages <span class="pub_pages">{{pub_entry.Fields.pages}}</span>.
