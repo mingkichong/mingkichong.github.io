@@ -3,53 +3,53 @@
     <div id="pub_google_scholar" >
         <a href="https://scholar.google.nl/citations?user={{site.google-scholar.user}}" target="_blank">My Google Scholar</a>
     </div>
-    <div align="center">
-        <h3>Journals</h3>
-        <ul id="pub_ul">
-            {% for pub_entry in site.data.publications %}
-                {% if pub_entry.EntryType == "article" %}
-                    <li id="pub" align="left">
-                        <span class="pub_title">{{pub_entry.Fields.title}}</span>
-                        <p>
-                            {% assign list_of_authors = pub_entry.Fields.author | replace: ' and ', ', ' %}
-                            {% if site.publications.highlight_my_author_name %}
-                                {% assign highlighted_my_author_name = site.publications.my_author_name | prepend: '<span class="pub_author_me">' | append: '</span>' %}
-                                {% assign list_of_authors = list_of_authors | replace: site.publications.my_author_name, highlighted_my_author_name %}
-                            {% endif %}
-                            <span class="pub_author">{{list_of_authors}}</span>
-                            <br/>
-                            <span class="pub_journal">{{pub_entry.Fields.journal}}</span>.
-                            <span class="pub_j_volume">{{pub_entry.Fields.volume}}</span>(<span class="pub_j_number">{{pub_entry.Fields.number}}</span>):
-                            <span class="pub_pages">{{pub_entry.Fields.pages}}</span> (<span class="pub_year">{{pub_entry.Fields.year}}</span>)
-                            <br/>
-                            <span class="pub_link"><a href="{{pub_entry.Fields.url}}" target="_blank">{{pub_entry.Fields.doi}}</a></span>
-                        </p>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-        <h3>Conferences</h3>
-        <ul id="pub_ul">
-            {% for pub_entry in site.data.publications %}
-                {% if pub_entry.EntryType == "inproceedings" %}
-                    <li id="pub" align="left">
-                        <span class="pub_title">{{pub_entry.Fields.title}}</span>
-                        <p>
-                            {% assign list_of_authors = pub_entry.Fields.author | replace: ' and ', ', ' %}
-                            {% if site.publications.highlight_my_author_name %}
-                                {% assign highlighted_my_author_name = site.publications.my_author_name | prepend: '<span class="pub_author_me">' | append: '</span>' %}
-                                {% assign list_of_authors = list_of_authors | replace: site.publications.my_author_name, highlighted_my_author_name %}
-                            {% endif %}
-                            <span class="pub_author">{{list_of_authors}}</span>
-                            <br/>
-                            In <span class="pub_venue">{{pub_entry.Fields.booktitle}}</span>.
-                            Pages <span class="pub_pages">{{pub_entry.Fields.pages}}</span>.
-                            <br/>
-                            <span class="pub_link"><a href="{{pub_entry.Fields.url}}" target="_blank">{{pub_entry.Fields.doi}}</a></span>
-                        </p>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
+</div>
+<div align="center">
+    <h3>Journals</h3>
+    <ul id="pub_ul">
+        {% for pub_entry in site.data.publications %}
+            {% if pub_entry.EntryType == "article" %}
+                <li id="pub" align="left">
+                    <span class="pub_title">{{pub_entry.Fields.title}}</span>
+                    <p>
+                        {% assign list_of_authors = pub_entry.Fields.author | replace: ' and ', ', ' %}
+                        {% if site.publications.highlight_my_author_name %}
+                            {% assign highlighted_my_author_name = site.publications.my_author_name | prepend: '<span class="pub_author_me">' | append: '</span>' %}
+                            {% assign list_of_authors = list_of_authors | replace: site.publications.my_author_name, highlighted_my_author_name %}
+                        {% endif %}
+                        <span class="pub_author">{{list_of_authors}}</span>
+                        <br/>
+                        <span class="pub_journal">{{pub_entry.Fields.journal}}</span>.
+                        <span class="pub_j_volume">{{pub_entry.Fields.volume}}</span>(<span class="pub_j_number">{{pub_entry.Fields.number}}</span>):
+                        <span class="pub_pages">{{pub_entry.Fields.pages}}</span> (<span class="pub_year">{{pub_entry.Fields.year}}</span>)
+                        <br/>
+                        <span class="pub_link"><a href="{{pub_entry.Fields.url}}" target="_blank">{{pub_entry.Fields.doi}}</a></span>
+                    </p>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <h3>Conferences</h3>
+    <ul id="pub_ul">
+        {% for pub_entry in site.data.publications %}
+            {% if pub_entry.EntryType == "inproceedings" %}
+                <li id="pub" align="left">
+                    <span class="pub_title">{{pub_entry.Fields.title}}</span>
+                    <p>
+                        {% assign list_of_authors = pub_entry.Fields.author | replace: ' and ', ', ' %}
+                        {% if site.publications.highlight_my_author_name %}
+                            {% assign highlighted_my_author_name = site.publications.my_author_name | prepend: '<span class="pub_author_me">' | append: '</span>' %}
+                            {% assign list_of_authors = list_of_authors | replace: site.publications.my_author_name, highlighted_my_author_name %}
+                        {% endif %}
+                        <span class="pub_author">{{list_of_authors}}</span>
+                        <br/>
+                        In <span class="pub_venue">{{pub_entry.Fields.booktitle}}</span>.
+                        Pages <span class="pub_pages">{{pub_entry.Fields.pages}}</span>.
+                        <br/>
+                        <span class="pub_link"><a href="{{pub_entry.Fields.url}}" target="_blank">{{pub_entry.Fields.doi}}</a></span>
+                    </p>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
 </div>
