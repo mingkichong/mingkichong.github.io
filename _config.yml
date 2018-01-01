@@ -1,11 +1,11 @@
 # Site settings
-title: '"Ming Ki" Chong'
+title: 'Ming_Ki Chong'
 description: My Online Space
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: '"Ming Ki" Chong'
+username: 'Ming_Ki Chong'
 user_description: hello world
 user_title: hello world
 email_address: unexpected.exception@gmail.com
