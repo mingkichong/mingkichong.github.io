@@ -6,15 +6,21 @@
       {{ content }}
     {% else %}
       {% include header.html %}
-      <section id="about">
-        {% include about.html %}
-      </section>
-      <section id="projects">
-        {% include projects.html %}
-      </section>
-      <section id="publications">
-        {% include publications.html %}
-      </section>
+      {% if site.include_about %}
+        <section id="about">
+          {% include about.html %}
+        </section>
+      {% endif %}
+      {% if site.include_project %}
+        <section id="projects">
+          {% include projects.html %}
+        </section>
+      {% endif %}
+      {% if site.include_publication %}
+        <section id="publications">
+          {% include publications.html %}
+        </section>
+      {% endif %}
       {% include footer.html %}
     {% endif %}
   </body>

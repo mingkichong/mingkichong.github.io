@@ -6,14 +6,18 @@ description:        'My Online Space'
 
 # User settings
 username:           'Ming_Ki Chong'
-user_description:   'hello world'
-user_title:         'hello world'
+# user_description:   'hello world'
+# user_title:         'hello world'
 email_address:      'unexpected.exception@gmail.com'
 github_username:    'mingkichong'
 linkedin_username:  'mingkichong'
 youtube_username:   'unexpectedexception'
 #gplus_username:  lorem_ipsum
 #twitter_username: lorem_ipsum
+
+include_about: false
+include_project: false
+include_publication: true
 
 # Google-analytics
 google-analytics:
