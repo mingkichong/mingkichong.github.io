@@ -23,6 +23,9 @@
         {% if site.youtube_username %}
           <a aria-label="My YouTube" target="_blank" href="https://www.youtube.com/user/{{site.youtube_username}}""><i class="icon fa fa-youtube-play" aria-hidden="true"></i></a>
         {% endif %}
+        {% if site.google_play_app %}
+          <a aria-label="My Android App" target="_blank" href="https://play.google.com/store/apps/details?id={{site.google_play_app}}""><i class="icon fa fa-android" aria-hidden="true"></i></a>
+        {% endif %}
       </div>
       <div class="header-links">
         {% if site.include_about %}
