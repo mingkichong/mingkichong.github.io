@@ -13,14 +13,10 @@ github_username:    'mingkichong'
 linkedin_username:  'mingkichong'
 youtube_username:   'unexpectedexception'
 
-about_long_description: '
-I am a software developer and team lead in Booking.com.
-I have special interests in user-centered design and creating technology that is easy to use.
-Before joining Booking.com, I was a researcher in University of Glasgow and Lancaster University in the UK.
-My research interests are in the cross section of Computer Science, Human-Computer Interaction, and Ubiquitous Computing.
-'
-#google_play_app:    'net.mingkichong.apps.wherewasit'
+#about_long_description: ''
+
 #gplus_username:  lorem_ipsum #twitter_username: lorem_ipsum
+#google_play_app:    'net.mingkichong.apps.wherewasit'
 
 include_about: true
 include_project: false

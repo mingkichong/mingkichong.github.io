@@ -16,4 +16,7 @@
 
 .about_details{
     font-size: 16px;
+    text-align:justify;
+    padding-left: var(--about-vertical-margin);
+    padding-right: var(--about-vertical-margin);
 }
