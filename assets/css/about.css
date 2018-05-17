@@ -1,0 +1,19 @@
+:root {
+  --about-vertical-margin: 50px;
+}
+
+.about_simplified {
+    font-size: 16px;
+    text-align: center;
+    margin-top: var(--about-vertical-margin);
+    margin-bottom: var(--about-vertical-margin);
+}
+
+.about_user_description {
+    font-size: 20px;
+    text-align: center;
+}
+
+.about_details{
+    font-size: 16px;
+}
