@@ -20,3 +20,9 @@
     padding-left: var(--about-vertical-margin);
     padding-right: var(--about-vertical-margin);
 }
+
+.about_table {
+    padding-left: 17%;
+    text-align: left;
+    line-height: 1.2;
+}
