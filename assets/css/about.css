@@ -19,6 +19,8 @@
     text-align:justify;
     padding-left: var(--about-vertical-margin);
     padding-right: var(--about-vertical-margin);
+    margin-top: var(--about-vertical-margin);
+    margin-bottom: var(--about-vertical-margin);
 }
 
 .about_table {
@@ -29,7 +31,6 @@
 
 .about_grumpy_note {
     font-size: 2px;
-    margin-top: var(--about-vertical-margin);
     text-align: center;
 }
 
