@@ -27,6 +27,12 @@
     line-height: 1.2;
 }
 
+.about_grumpy_note {
+    font-size: 2px;
+    margin-top: var(--about-vertical-margin);
+    text-align: center;
+}
+
 #about_link {
     font-weight: bold;
 }
