@@ -78,3 +78,12 @@
 	font-style: italic;
 	font-size: 12px;
 }
+
+.pub_volunteer_pos {
+	font-weight: bold;
+	font-size: 18px;;
+}
+
+.pub_volunteer_conf {
+	font-size: 14px;;
+}
