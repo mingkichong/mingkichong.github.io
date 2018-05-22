@@ -24,7 +24,7 @@ include_publication: true
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-119687639-1"
 
 google-scholar:
   user: 'SGrCJqMAAAAJ'
