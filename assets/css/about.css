@@ -34,6 +34,11 @@
     text-align: center;
 }
 
+.about_mkc_img {
+    margin-top: var(--about-vertical-margin);
+    text-align: center;
+}
+
 #about_link {
     font-weight: bold;
 }
