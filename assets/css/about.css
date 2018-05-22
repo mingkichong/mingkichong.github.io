@@ -23,6 +23,16 @@
     margin-bottom: var(--about-vertical-margin);
 }
 
+.about_details_booking{
+    font-size: 16px;
+    text-align:justify;
+    padding-left: var(--about-vertical-margin);
+    padding-right: var(--about-vertical-margin);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
 .about_table {
     padding-left: 17%;
     text-align: left;
@@ -37,6 +47,15 @@
 .about_mkc_img {
     margin-top: var(--about-vertical-margin);
     text-align: center;
+}
+
+.about_user-details{
+    text-align:center;
+    margin:5px auto;
+    margin-bottom: var(--about-vertical-margin);
+    margin-top: var(--about-vertical-margin);
+
+
 }
 
 #about_link {
