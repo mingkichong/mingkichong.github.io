@@ -1,0 +1,15 @@
+:root {
+  --skill-vertical-margin: 10px;
+}
+
+.skills_list {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: var(--skill-vertical-margin);
+  margin-top: var(--skill-vertical-margin);
+}
+
+.skills_strong {
+  font-weight: bold;
+  font-size: 18px;
+}

@@ -21,6 +21,7 @@ youtube_username:   'unexpectedexception'
 include_about: true
 include_project: false
 include_publication: true
+include_skills: true
 
 # Google-analytics
 google-analytics:
