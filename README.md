@@ -1,5 +1,13 @@
 Just my github.io page
 
+To run it locally:
+
+```
+bundle exec jekyll serve
+```
+
+Go to https://jekyllrb.com/docs/quickstart/ for more infomation
+
 ---
 
 For generating publications data:
