@@ -1,0 +1,34 @@
+:root {
+  --projects-vertical-margin: 50px;
+}
+
+.projects_main_first {
+	text-align: center;
+}
+
+.projects_main_after_first {
+	text-align: center;
+	margin-top: var(--projects-vertical-margin);
+}
+
+.project_demo_video {
+	margin-top: 40px;
+}
+
+.project_name {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#projects_link {
+    font-weight: bold;
+}
+
+#projects_link a {
+    color: #006666;
+    text-decoration: none;
+}
+
+#projects_link a:hover {
+    text-decoration: underline;
+}

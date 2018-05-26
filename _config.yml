@@ -19,7 +19,7 @@ youtube_username:   'unexpectedexception'
 #google_play_app:    'net.mingkichong.apps.wherewasit'
 
 include_about: true
-include_project: false
+include_project: true
 include_publication: true
 include_skills: true
 
