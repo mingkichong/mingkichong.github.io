@@ -1,5 +1,6 @@
 :root {
-  --about-vertical-margin: 50px;
+    --about-vertical-margin: 50px;
+    --about-list-left-margin:100px;
 }
 
 .about_simplified {
@@ -10,8 +11,8 @@
 }
 
 .about_user_description {
-    font-size: 20px;
     text-align: center;
+    font-style: italic;
 }
 
 .about_details{
@@ -19,34 +20,17 @@
     text-align:justify;
     padding-left: var(--about-vertical-margin);
     padding-right: var(--about-vertical-margin);
-    margin-top: var(--about-vertical-margin);
-    margin-bottom: var(--about-vertical-margin);
-}
-
-.about_details_booking{
-    font-size: 16px;
-    text-align:justify;
-    padding-left: var(--about-vertical-margin);
-    padding-right: var(--about-vertical-margin);
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
-.about_table {
-    padding-left: 17%;
+.about_json {
     text-align: left;
-    line-height: 1.2;
-}
-
-.about_grumpy_note {
-    font-size: 2px;
-    text-align: center;
-}
-
-.about_mkc_img {
-    margin-top: var(--about-vertical-margin);
-    text-align: center;
+    line-height: 1.5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:77%;
 }
 
 .about_user-details{
@@ -54,8 +38,18 @@
     margin:5px auto;
     margin-bottom: var(--about-vertical-margin);
     margin-top: var(--about-vertical-margin);
+}
 
+.about_interest_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+}
 
+.about_interest_list{
+    list-style-type: circle;
+    line-height: 2;
 }
 
 #about_link {
@@ -69,4 +63,13 @@
 
 #about_link a:hover {
     text-decoration: underline;
+}
+
+#about_question{
+    text-align: center;
+    font-size: 12px;
+}
+#about_answer{
+    font-size: 8px;
+    opacity: 0.1;
 }
