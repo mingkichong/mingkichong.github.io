@@ -28,6 +28,9 @@
         {% endif %}
       </div>
       <div class="header-links">
+        {% if site.include_summary %}
+          <a class="link" href="#summary" data-scroll>TLDR</a>
+        {% endif %}
         {% if site.include_about %}
           <a class="link" href="#about" data-scroll>About Me</a>
         {% endif %}
@@ -42,5 +45,5 @@
         {% endif %}
       </div>
   </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  <a class="down" href="#summary" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>

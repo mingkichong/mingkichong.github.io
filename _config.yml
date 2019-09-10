@@ -22,6 +22,7 @@ include_about: true
 include_project: true
 include_publication: true
 include_skills: true
+include_summary: true
 
 # Google-analytics
 google-analytics:

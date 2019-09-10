@@ -36,9 +36,9 @@
     text-align: left;
     line-height: 1.5;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:77%;
+    margin-left: 30%;
+    margin-top: var(--about-vertical-margin);
+    margin-bottom: var(--about-vertical-margin);
 }
 
 .about_user-details{
@@ -132,10 +132,12 @@
 }
 
 #about_question{
+    margin-top: var(--about-vertical-margin);
     text-align: center;
     font-size: 12px;
 }
 #about_answer{
     font-size: 8px;
     opacity: 0.1;
+    margin-bottom: var(--about-vertical-margin);
 }

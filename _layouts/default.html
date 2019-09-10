@@ -8,6 +8,11 @@
     {{ content }}
   {% else %}
     {% include header.html %}
+    {% if site.include_summary %}
+      <section id="summary">
+        {% include summary.html %}
+      </section>
+    {% endif %}
     {% if site.include_about %}
       <section id="about">
         {% include about.html %}
