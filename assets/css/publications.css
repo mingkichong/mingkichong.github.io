@@ -43,10 +43,12 @@
 
 .pub_author {
 	font-style: italic;
+	color: #BFBFBFFF;
 }
 
 .pub_author_me{
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	color: #555555FF;
 }
 
 .pub_venue {
