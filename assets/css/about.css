@@ -15,6 +15,12 @@
     font-style: italic;
 }
 
+.about_user_description_want_more{
+    font-style: normal;
+    text-align: center;
+    font-size: 16px;
+}
+
 .about_details{
     font-size: 16px;
     text-align:justify;
