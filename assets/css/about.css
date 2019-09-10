@@ -2,7 +2,8 @@
     --about-vertical-margin: 50px;
     --about-list-left-margin:100px;
     --about-pulse-scale-size:1.25;
-    --about-bottom-margin: 150px;
+    --about-top-margin: 100px;
+    --about-bottom-margin: 350px;
 }
 
 .about_simplified {
@@ -61,7 +62,7 @@
 }
 
 .about_down_scroll{
-    margin-top: var(--about-vertical-margin);
+    margin-top: var(--about-top-margin);
     text-align: center;
     font-size: 32px;
     margin-bottom: var(--about-bottom-margin);
