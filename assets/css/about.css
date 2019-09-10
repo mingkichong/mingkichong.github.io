@@ -73,6 +73,19 @@
     animation: pulses 2.6s infinite
 }
 
+.about_up_scroll{
+    margin-top: var(--about-top-margin);
+    text-align: center;
+    font-size: 32px;
+    /*margin-bottom: var(--about-bottom-margin);*/
+}
+
+.about_up_scroll .icon {
+    -webkit-animation: pulses 2.6s infinite;
+    animation: pulses 2.6s infinite
+}
+
+
 @-webkit-keyframes pulses {
   from {
     -webkit-transform: scale3d(1, 1, 1);
