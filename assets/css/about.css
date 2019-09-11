@@ -38,9 +38,9 @@
     text-align: left;
     line-height: 1.5;
     display: block;
-    margin-left: 30%;
     margin-top: var(--about-vertical-margin);
     margin-bottom: var(--about-vertical-margin);
+    width:min-content;
 }
 
 .about_user-details{
@@ -52,7 +52,7 @@
 
 .about_interest_center {
     margin: 0 auto;
-    width: 65%;
+    width:max-content;
 }
 
 .about_interest_list{
