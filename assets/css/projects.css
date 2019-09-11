@@ -1,18 +1,18 @@
 :root {
-  --projects-vertical-margin: 50px;
-  --projects-top-margin: 50px;
-  --projects-bottom-margin: 100px;
+    --projects-vertical-margin: 50px;
+    --projects-top-margin: 50px;
+    --projects-bottom-margin: 100px;
 }
 
 .projects_main_first {
-	text-align: justify;
-  margin-bottom: var(--projects-top-margin);
+    text-align: justify;
+    margin-bottom: var(--projects-top-margin);
 }
 
 .projects_main_after_first {
-	text-align: justify;
-	margin-top: var(--projects-top-margin);
-  margin-bottom: var(--projects-top-margin);
+    text-align: justify;
+    margin-top: var(--projects-top-margin);
+    margin-bottom: var(--projects-top-margin);
 }
 
 .project_demo_video {
@@ -21,8 +21,8 @@
 }
 
 .project_name {
-	font-size: 26px;
-	font-weight: bold;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .project_get_it_on_app_store{
