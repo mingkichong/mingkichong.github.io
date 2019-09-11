@@ -4,6 +4,7 @@
     --about-pulse-scale-size:1.25;
     --about-top-margin: 100px;
     --about-bottom-margin: 350px;
+    --about-horizontal-margin: 55px;
 }
 
 .about_simplified {
@@ -27,8 +28,8 @@
 .about_details{
     font-size: 16px;
     text-align:justify;
-    padding-left: var(--about-vertical-margin);
-    padding-right: var(--about-vertical-margin);
+    padding-left: var(--about-horizontal-margin);
+    padding-right: var(--about-horizontal-margin);
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -45,15 +46,13 @@
 .about_user-details{
     text-align:center;
     margin:5px auto;
-    margin-bottom: var(--about-vertical-margin);
-    margin-top: var(--about-vertical-margin);
+    margin-bottom: var(--about-horizontal-margin);
+    margin-top: var(--about-horizontal-margin);
 }
 
 .about_interest_center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:70%;
+    margin: 0 auto;
+    width:550px;
 }
 
 .about_interest_list{
