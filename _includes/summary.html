@@ -1,5 +1,7 @@
 <section id="summary">
 
+<script type="text/javascript" src="/assets/js/summary.js"></script>
+
 <div class="user-details">
   <h1> TLDR </h1>
 </div>
@@ -10,8 +12,10 @@
 { "first_name"    : "<strong>Ming_Ki</strong>",
   "last_name"     : "<strong>Chong</strong>",
   "also_known_as" : "The guy with an <strong>_underscore</strong>",
-  "who_am_i"      : "<strong>Software Engineer</strong>, <strong>Researcher</strong>, <strong>Mentor</strong>, <strong>Leader</strong>",
-  "social_media"  : "<strong>None</strong>, because I enjoy my privacy" }
+  "who_am_i"      : ["<strong>Software Engineer</strong>", "<strong>Researcher</strong>", "<strong>Mentor</strong>", "<strong>Leader</strong>"],
+  "email"         : "<strong>unexpected</strong>&nbsp;&bull;&nbsp;<strong>exception</strong>&nbsp;<span class="summary_at">&#64;</span>&nbsp;<strong>gmail</strong>&nbsp;&bull;&nbsp;<strong>com</strong>",
+  "social_media"  : [{"platform"      : <strong><span class="tooltip">null<span class="tooltiptext">¯\(°_o)/¯<br/>not null if you consider LinkedIn <br/>as a social media platform</span></span></strong>,
+                     "description"    : "I enjoy my privacy" }]}
     </pre>
   </div>
 </center>
@@ -21,7 +25,7 @@
 </div>
 
 <div class="about_details">
-  <pre class="about_user_description_want_more">if (you do not like too much text || not what you are looking for) { <span id="about_link"><a href="mailto:{{site.email_address}}">contact me &#64;</a></span> } else { <span class="icon" id="about_link"><a href="#about" data-scroll>scroll &darr;</a></span> }</pre>
+  <pre class="about_user_description_want_more">if (you do not like too much text || not what you are looking for) { <span id="about_link"><a data-scroll><span class="tooltip">contact me<span class="tooltiptext">unexpected&nbsp;&bull;&nbsp;exception&nbsp;&#64;&nbsp;gmail&nbsp;&bull;&nbsp;com</span></span></a></span> } else { <span class="icon" id="about_link"><a href="#about" data-scroll>scroll &darr;</a></span> }</pre>
 </div>
 
 <div class="about_details" id="about_question">
@@ -29,7 +33,7 @@
     Quick question: the chicken or the egg?
   </div>
   <div>
-    Answer: <span id="about_answer">roast the chicken and scramble the egg, and there is a delicious meal.</span> ¯\_(ツ)_/¯
+    Answer: <span id="about_answer">roast the chicken and scramble the egg, and there is a delicious meal.</span> <span class="tooltip">─=≡Σ((( つ◕ᴗ◕)つ<span class="tooltiptext">fly&nbsp;away&nbsp;&#8230;</span></span>
     <!-- Hehehe, did you zoom in to read the answer or did you decide to read from the source :p -->
   </div>
 </div>
