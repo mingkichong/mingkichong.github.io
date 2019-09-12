@@ -6,7 +6,7 @@
     </h1>
     <div class="header-icons">
       {% if site.email_address %}
-        <a aria-label="Send email" href="mailto:{{site.email_address}}"><i class="icon fas fa-mail-bulk"></i></a>
+        <a aria-label="Send email"><span class="tooltip"><i class="icon fas fa-mail-bulk"></i><span class="tooltiptext">email&#58;&nbsp;&#91;unexpected&nbsp;&bull;&nbsp;exception&nbsp;&#64;&nbsp;gmail&nbsp;&bull;&nbsp;com&#93;</span></span></a>
       {% endif %}
       {% if site.twitter_username %}
         <a aria-label="My Twitter" target="_blank" href="#"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
