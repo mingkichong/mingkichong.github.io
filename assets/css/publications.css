@@ -89,3 +89,35 @@
 .pub_volunteer_conf {
 	font-size: 14px;;
 }
+
+.pub_collapsible {
+  cursor: pointer;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left:10px;
+  padding-right:10px;
+  width: 56%;
+}
+
+.pub_active, .pub_collapsible:hover {
+  background-color: #EEEEEE;
+}
+
+.pub_collapsible:after {
+  background-color: none;
+  content: "\25BE";
+  font-weight: bold;
+  /*margin-left: 10px;*/
+  float: right;
+}
+
+.pub_active:after {
+  content: "\2212";
+}
+
+.pub_content {
+  padding: 0 0px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}

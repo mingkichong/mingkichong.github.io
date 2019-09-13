@@ -12,7 +12,8 @@
     </div>
   </div>
   <div align="center">
-    <h3>Journals</h3>
+    <h3 class="pub_collapsible">Journals</h3>
+    <div class="pub_content">
     <ul id="pub_ul">
       {% for pub_entry in site.data.publications %}
         {% if pub_entry.EntryType == "article" %}
@@ -36,7 +37,9 @@
         {% endif %}
       {% endfor %}
     </ul>
-    <h3>Conferences</h3>
+    </div>
+    <h3 class="pub_collapsible">Conferences</h3>
+    <div class="pub_content">
     <ul id="pub_ul">
       {% for pub_entry in site.data.publications %}
         {% if pub_entry.EntryType == "inproceedings" %}
@@ -59,7 +62,9 @@
         {% endif %}
       {% endfor %}
     </ul>
-    <h3>Thesis</h3>
+  </div>
+    <h3 class="pub_collapsible">Thesis</h3>
+    <div class="pub_content">
     <ul id="pub_ul">
       <li id="pub" align="left">
         <span class="pub_title">Understanding Spontaneous Device Association</span>
@@ -72,7 +77,9 @@
         </p>
       </li>
     </ul>
-    <h3>Academic Volunteering</h3>
+  </div>
+    <h3 class="pub_collapsible">Academic Volunteering</h3>
+    <div class="pub_content">
     <ul id="pub_ul">
       <li id="pub" align="left">
         <span class="pub_volunteer_pos">Registration Chair</span>
@@ -88,5 +95,8 @@
       </li>
     </ul>
   </div>
+</div>
+
+<script src="{{ "/assets/js/publications.js" | prepend: site.baseurl }}"></script>
 
 </section>
