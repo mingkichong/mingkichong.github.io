@@ -63,7 +63,7 @@
 .about_down_scroll{
     margin-top: var(--about-top-margin);
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
     margin-bottom: var(--about-bottom-margin);
 }
 
@@ -75,7 +75,7 @@
 .about_up_scroll{
     margin-top: var(--about-top-margin);
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
     /*margin-bottom: var(--about-bottom-margin);*/
 }
 
@@ -96,7 +96,7 @@
     transform: scale3d(var(--about-pulse-scale-size), var(--about-pulse-scale-size), var(--about-pulse-scale-size));
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
     filter: alpha(opacity=40);
-    opacity: .4;
+    opacity: .2;
   }
 
   to {
@@ -117,7 +117,7 @@
   50% {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
     filter: alpha(opacity=40);
-    opacity: .4;
+    opacity: .2;
     -webkit-transform: scale3d(var(--about-pulse-scale-size), var(--about-pulse-scale-size), var(--about-pulse-scale-size));
     transform: scale3d(var(--about-pulse-scale-size), var(--about-pulse-scale-size), var(--about-pulse-scale-size));
   }
