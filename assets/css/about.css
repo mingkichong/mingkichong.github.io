@@ -39,7 +39,7 @@
     line-height: 1.5;
     display: block;
     margin-top: var(--about-vertical-margin);
-    margin-bottom: var(--about-vertical-margin);
+    /*margin-bottom: var(--about-vertical-margin);*/
     width:min-content;
 }
 
