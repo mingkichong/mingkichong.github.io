@@ -68,8 +68,8 @@
 }
 
 .about_down_scroll .icon {
-    -webkit-animation: pulses 2.6s infinite;
-    animation: pulses 2.6s infinite
+    -webkit-animation: pulses 4s infinite;
+    animation: pulses 4s infinite
 }
 
 .about_up_scroll{
@@ -80,8 +80,8 @@
 }
 
 .about_up_scroll .icon {
-    -webkit-animation: pulses 2.6s infinite;
-    animation: pulses 2.6s infinite
+    -webkit-animation: pulses 4s infinite;
+    animation: pulses 4s infinite
 }
 
 
