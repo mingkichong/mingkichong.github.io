@@ -4758,7 +4758,7 @@ sup {
     padding-bottom: 2px;
     border-radius: 15%;
     border: 2px solid #fff;
-    /*margin: 5px;*/
+    transition: all .7s;
 }
 
 .down .icon:active,
@@ -4767,7 +4767,7 @@ sup {
 .footer a:hover {
     color: #FFF;
     background: #006666;
-    border: 2px dotted #fff;
+    border: 2px solid #006666;
     -webkit-animation: none;
     animation: none;
 }

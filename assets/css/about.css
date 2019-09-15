@@ -69,7 +69,9 @@
 
 .about_down_scroll .icon {
     -webkit-animation: pulses 4s infinite;
-    animation: pulses 4s infinite
+    animation: pulses 4s infinite;
+    transition: all .7s;
+    border-radius: 50%;
 }
 
 .about_up_scroll{
@@ -81,7 +83,37 @@
 
 .about_up_scroll .icon {
     -webkit-animation: pulses 4s infinite;
-    animation: pulses 4s infinite
+    animation: pulses 4s infinite;
+    transition: all .7s;
+}
+
+
+.about_up_scroll .icon:active,
+.about_up_scroll .icon:hover {
+    color: #FFF;
+    background: #006666;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    border-radius: 15%;
+    /*border: 2px solid #666666;*/
+    -webkit-animation: none;
+    animation: none;
+}
+
+.about_down_scroll .icon:active,
+.about_down_scroll .icon:hover {
+    color: #FFF;
+    background: #006666;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 50%;
+    border: 2px solid #666666;
+    -webkit-animation: none;
+    animation: none;
 }
 
 
