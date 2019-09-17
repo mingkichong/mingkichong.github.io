@@ -24,6 +24,7 @@
     top:-6px;
     transform: translate(-50%, -100%);
     width: max-content;
+    transition-duration: 0.25s;
 }
 
 .tooltip .tooltiptext::after {
