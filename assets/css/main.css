@@ -4970,9 +4970,7 @@ sup {
 }
 
 .down .icon:active,
-.down .icon:hover,
-.footer a:active,
-.footer a:hover {
+.down .icon:hover{
     color: #FFF;
     background: #006666;
     border: 2px solid #006666;
