@@ -9,7 +9,7 @@ username:           'Ming_Ki Chong'
 user_description:   'I am an unexpected exception that just happened to happen'
 # user_title:         'hello world'
 # email_address:      'unexpected&#46;exception&#64;gmail&#46;com'
-email_address : unexpected&#8901;exception<span class="summary_at">&#64;</span>gmail&#8901;com
+email_address :     'unexpected&#8901;exception<span class="summary_at">&#64;</span>gmail&#8901;com'
 github_username:    'mingkichong'
 linkedin_username:  'mingkichong'
 youtube_username:   'unexpectedexception'
