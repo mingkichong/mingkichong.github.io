@@ -85,6 +85,7 @@
     -webkit-animation: pulses 4s infinite;
     animation: pulses 4s infinite;
     transition: all .7s;
+    border-radius: 15%;
 }
 
 
