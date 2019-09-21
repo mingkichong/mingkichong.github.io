@@ -3,6 +3,9 @@
     <h1>
       <span class="site-title">{{site.username}}</span>
     </h1>
+    <h3>
+      <span class="site-description">{{ site.description }}</span>
+    </h3>
     <div class="header-icons">
       {% if site.email_address %}
         <a aria-label="Send email"><span class="tooltip"><i class="icon fas fa-mail-bulk"></i><span class="tooltiptext">email&#58; &#91; {{ site.email_address }} &#93;</span></span></a>
