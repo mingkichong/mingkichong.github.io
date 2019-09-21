@@ -1,28 +1,22 @@
 # Site settings
 title:              'Ming_Ki Chong'
 description:        'My Unexpected Online Exception'
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username:           'Ming_Ki Chong'
 user_description:   'I am an unexpected exception that just happened to happen'
-# user_title:         'hello world'
-# email_address:      'unexpected&#46;exception&#64;gmail&#46;com'
 email_address :     'unexpected&#8901;exception<span class="summary_at">&#64;</span>gmail&#8901;com'
 github_username:    'mingkichong'
 linkedin_username:  'mingkichong'
 youtube_username:   'unexpectedexception'
 
-#about_long_description: ''
-
 google_play_app:     'https://play.google.com/store/apps/developer?id=MKC+apps'
 
-include_about: true
-include_project: true
+include_about:       true
+include_project:     true
 include_publication: true
-include_skills: true
-include_summary: true
+include_skills:      true
+include_summary:     true
 
 # Google-analytics
 google-analytics:
@@ -32,7 +26,7 @@ google-scholar:
   user: 'SGrCJqMAAAAJ'
 
 publications:
-  my_author_name:   'Ming Ki Chong'
+  my_author_name:           'Ming Ki Chong'
   highlight_my_author_name: true
 
 exclude: ['package.json', 'src' , 'node_modules']
