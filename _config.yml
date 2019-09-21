@@ -16,7 +16,6 @@ youtube_username:   'unexpectedexception'
 
 #about_long_description: ''
 
-#gplus_username:  lorem_ipsum #twitter_username: lorem_ipsum
 google_play_app:     'https://play.google.com/store/apps/developer?id=MKC+apps'
 
 include_about: true
