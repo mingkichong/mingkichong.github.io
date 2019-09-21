@@ -4867,7 +4867,7 @@ sup {
 }
 
 .header .site-description {
-    font-size: 20px;
+    font-size: 18px;
     display: block;
     line-height: 1;
     color: #fff;
@@ -4876,7 +4876,7 @@ sup {
 
 @media only screen and (min-width:550px) {
     .header .site-description {
-        font-size: 40px
+        font-size: 18px
     }
 }
 
