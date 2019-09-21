@@ -10,7 +10,7 @@ github_username:    'mingkichong'
 linkedin_username:  'mingkichong'
 youtube_username:   'unexpectedexception'
 
-google_play_app:     'https://play.google.com/store/apps/developer?id=MKC+apps'
+google_play_app:     'MKC+apps' #changing to unexpected.exception
 
 include_about:       true
 include_project:     true
