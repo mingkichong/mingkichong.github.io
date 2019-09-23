@@ -185,3 +185,13 @@
     opacity: 0.1;
     margin-bottom: var(--about-vertical-margin);
 }
+
+.about_author{
+    height:200px;
+    border-radius: 50%;
+    display: block;
+    margin-top:5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #EEE;
+}
