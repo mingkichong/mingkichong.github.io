@@ -17,6 +17,7 @@
 .about_user_description {
     text-align: center;
     font-style: italic;
+    padding-top: 2em;
 }
 
 .about_user_description_want_more{
@@ -39,8 +40,25 @@
     line-height: 1.5;
     display: block;
     margin-top: var(--about-vertical-margin);
-    /*margin-bottom: var(--about-vertical-margin);*/
     width:min-content;
+    background: #EED;
+    font-weight: bold;
+    border:solid gray;
+    border-width:.1em .1em .1em 1em;
+}
+
+.about_json pre {
+    margin:.2em .5em;
+}
+
+.about_json_key {
+    color: #8B008B;
+    font-weight: normal;
+}
+
+.about_json_value {
+    color: #AA5500;
+    font-weight: normal;
 }
 
 .about_user-details{
