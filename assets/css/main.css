@@ -4823,173 +4823,17 @@ sup {
     }
 }
 
-#particles-js {
-    background: #000000;
-    display: flex;
-    vertical-align: bottom;
-    width: 100%;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed
-}
-
-#particles-js .particles-js-canvas-el {
-    width: 100%!important;
-    height: 100vh!important
-}
-
-.header {
-    z-index: 1;
-    text-align: center;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: 0 auto;
-    width: max-content;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
-}
-
-.header .site-title {
-    font-size: 50px;
-    display: block;
-    line-height: 1;
-    color: #fff
-}
-
-@media only screen and (min-width:550px) {
-    .header .site-title {
-        margin: 0;
-        font-size: 100px
-    }
-}
-
-.header .site-description {
-    font-size: 18px;
-    display: block;
-    line-height: 1;
-    color: #fff;
-    margin-top: 10px
-}
-
-@media only screen and (min-width:550px) {
-    .header .site-description {
-        font-size: 18px
-    }
-}
-
-.header-links {
-    margin: 10px
-}
-
-.header-links .link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 15px;
-    margin: 10px
-}
-
-@media only screen and (min-width:550px) {
-    .header-links .link {
-        font-size: 20px
-    }
-}
-
-.header-icons {
-    display: flex;
-    justify-content: center;
-    text-align: center
-}
-
-.down,
-.header-icons .icon {
-    color: #fff;
-    text-align: center;
-    margin:auto;
-}
-
-.header-icons .icon {
-    height: 20px;
-    padding: 10px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    transition: all .7s;
-    width: 20px;
-    font-size: 20px;
-    margin: 5px
-}
-
-.header-icons .icon:active,
-.header-icons .icon:hover {
-    color: #1a222c;
-    background: #fff
-}
-
-@media only screen and (min-width:550px) {
-    .header-icons .icon {
-        width: 35px;
-        height: 35px;
-        font-size: 35px
-    }
-}
-
-.down {
-    position: absolute;
-    bottom: 25px;
-    width: 100%;
-    /*height: auto;*/
-    margin: auto auto;
-    display: block;
-    font-size: 48px;
-    /*cursor: pointer;*/
-}
-
-.down .icon {
-    position: absolute;
-    /*-webkit-transform-style: preserve-3d;*/
-    /*transform-style: preserve-3d;*/
-    /*top: 50%;*/
-    /*left: 50%;*/
-    /*-webkit-transform: translate(-50%, -50%);*/
-    transform: translate(-50%, -150%);
-    /*width: 100px;*/
-    /*height: 100px;*/
-    /*fill: #fff;*/
-    -webkit-animation: pulse 4s infinite;
-    animation: pulse 4s infinite;
-
-    font-size: 48px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border-radius: 15%;
-    border: 2px solid #fff;
-    transition: all .7s;
-}
-
-.down .icon:active,
-.down .icon:hover{
-    color: #FFF;
-    background: #006666;
-    border: 2px solid #006666;
-    -webkit-animation: none;
-    animation: none;
-}
-
 #about {
     width: 90%;
     margin: 0 auto;
     max-width: 960px
 }
 
-@media only screen and (min-width:550px) {
+/*@media only screen and (min-width:550px) {
     #about {
         width: 80%
     }
-}
+}*/
 
 .tech {
     margin: 10px
@@ -5008,12 +4852,12 @@ sup {
     font-size: 16px
 }
 
-@media only screen and (min-width:550px) {
+/*@media only screen and (min-width:550px) {
     .user {
         flex-wrap: nowrap;
         font-size: 75px
     }
-}
+}*/
 
 .user-details {
     text-align: center;
@@ -5026,11 +4870,11 @@ sup {
     margin: 0 auto
 }
 
-@media only screen and (min-width:550px) {
+/*@media only screen and (min-width:550px) {
     #projects {
         width: 80%
     }
-}
+}*/
 
 .user-projects {
     margin: 20px auto
@@ -5056,7 +4900,7 @@ body {
     margin-right: 5px
 }
 
-@media only screen and (min-width:550px) {
+/*@media only screen and (min-width:550px) {
     .contents {
         margin-left: 0;
         width: 48%
@@ -5079,7 +4923,7 @@ body {
     .images-left img {
         float: left
     }
-}
+}*/
 
 .project-link {
     display: block;

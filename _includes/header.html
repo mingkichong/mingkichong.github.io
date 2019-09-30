@@ -1,10 +1,10 @@
-<div id="particles-js">
+<section class="header-section">
   <div class="header">
-    <h1>
-      <span class="site-title">{{site.username}}</span>
+    <h1 class="site-title">
+      <span>{{site.username}}</span>
     </h1>
-    <h3>
-      <span class="site-description">{{ site.description }}</span>
+    <h3 class="site-description">
+      <span>{{ site.description }}</span>
     </h3>
     <div class="header-icons">
       {% if site.email_address %}
@@ -23,27 +23,31 @@
         <a aria-label="My Android App" target="_blank" href="https://play.google.com/store/apps/developer?id={{site.google_play_app}}"><i class="icon fab fa-google-play" aria-hidden="true"></i></a>
       {% endif %}
     </div>
+    <span id="about_link" class="down">
+      <a id="down-arrow" href="#summary" data-scroll>
+        {% include arrow-down-top.html %}
+      </a>
+    </span>
     <div class="header-links">
-      {% if site.include_summary %}
-        <a class="link" href="#summary" data-scroll>TLDR</a>
-      {% endif %}
-      {% if site.include_about %}
-        <a class="link" href="#about" data-scroll>About Me</a>
-      {% endif %}
-      {% if site.include_skills %}
-        <a class="link" href="#skills" data-scroll>Skills</a>
-      {% endif %}
-      {% if site.include_project %}
-        <a class="link" href="#projects" data-scroll>Projects</a>
-      {% endif %}
-      {% if site.include_publication %}
-        <a class="link" href="#publications" data-scroll>Publications</a>
-      {% endif %}
+      <div id="header-navbar">
+        {% if site.include_summary %}
+          <a class="link" href="#summary" data-scroll>TLDR</a>
+        {% endif %}
+        {% if site.include_about %}
+          <a class="link" href="#about" data-scroll>About Me</a>
+        {% endif %}
+        {% if site.include_skills %}
+          <a class="link" href="#skills" data-scroll>Skills</a>
+        {% endif %}
+        {% if site.include_project %}
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        {% endif %}
+        {% if site.include_publication %}
+          <a class="link" href="#publications" data-scroll>Publications</a>
+        {% endif %}
+      </div>
     </div>
   </div>
-  <span id="about_link" class="down">
-    <a href="#summary" data-scroll>
-      {% include arrow-down-top.html %}
-    </a>
-  </span>
-</div>
+
+</section>
+<script src="{{ "/assets/js/header.js" | prepend: site.baseurl }}"></script>
