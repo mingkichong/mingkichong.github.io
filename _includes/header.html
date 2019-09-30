@@ -31,23 +31,25 @@
     <div class="header-links">
       <div id="header-navbar" class="header-navbar">
         {% if site.include_summary %}
-          <a class="link" href="#summary" data-scroll>TLDR</a>
+          <a class="link" href="#summary" id="summary-link" data-scroll>TLDR</a>
         {% endif %}
         {% if site.include_about %}
-          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#about" id="about-link" data-scroll>About Me</a>
         {% endif %}
         {% if site.include_skills %}
-          <a class="link" href="#skills" data-scroll>Skills</a>
+          <a class="link" href="#skills" id="skills-link" data-scroll>Skills</a>
         {% endif %}
         {% if site.include_project %}
-          <a class="link" href="#projects" data-scroll>Projects</a>
+          <a class="link" href="#projects" id="projects-link" data-scroll>Projects</a>
         {% endif %}
         {% if site.include_publication %}
-          <a class="link" href="#publications" data-scroll>Publications</a>
+          <a class="link" href="#publications" id="publications-link" data-scroll>Publications</a>
         {% endif %}
       </div>
     </div>
   </div>
-
+<span class="">
+  <a id="header-site-link" class="header-site-link link" href="#body" data-scroll>Ming_Ki Chong</a>
+<span>
 </section>
 <script src="{{ "/assets/js/header.js" | prepend: site.baseurl }}"></script>
