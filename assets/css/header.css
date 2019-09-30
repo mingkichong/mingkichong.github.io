@@ -59,8 +59,12 @@
     }
 }*/
 
+.header-navbar{
+    z-index: 100;
+}
+
 .header-links {
-    margin: 10px
+    margin: 10px;
 }
 
 .header-links .link {
