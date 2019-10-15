@@ -8,6 +8,17 @@
     {{ content }}
   {% else %}
     {% include header.html %}
+
+<div class="about_details" id="about_question">
+  <div>
+    Quick question: the chicken or the egg?
+  </div>
+  <div>
+    Answer: <span id="about_answer">roast the chicken and scramble the egg, and there is a delicious meal.</span> <span id="about_link"><a><span class="tooltip">─=≡Σ((( つ◕ᴗ◕)つ<span class="tooltiptext">fly away &#8230;</span></span></a></span>
+    <!-- Hehehe, did you zoom in to read the answer or did you decide to read from the source :p -->
+  </div>
+</div>
+
     {% if site.include_summary %}
       {% include summary.html %}
     {% endif %}
