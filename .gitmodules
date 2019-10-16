@@ -1,0 +1,3 @@
+[submodule "assets/js/double-click-to-select"]
+	path = assets/js/double-click-to-select
+	url = git@github.com:mingkichong/double-click-to-select.git
