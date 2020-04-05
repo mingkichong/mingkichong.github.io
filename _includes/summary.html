@@ -11,8 +11,9 @@
   <span class="about_json_key">&quot;last_name&quot;</span>     : <span class="about_json_value" style="font-weight: bold;">&quot;Chong&quot;</span>,
   <span class="about_json_key">&quot;also_known_as&quot;</span> : <span class="about_json_value">&quot;the guy with an _underscore&quot;</span>,
   <span class="about_json_key">&quot;who_am_i&quot;</span>      : [<span class="about_json_value">&quot;software engineer&quot;</span>, <span class="about_json_value">&quot;researcher&quot;</span>, <span class="about_json_value">&quot;mentor&quot;</span>, <span class="about_json_value">&quot;leader&quot;</span>],
-  <span class="about_json_key">&quot;motto&quot;</span>         : <span class="about_json_value">&quot;simplicity&quot;</span>,
+  <span class="about_json_key">&quot;motto&quot;</span>         : <span class="about_json_value">&quot;simplicity&quot;</span>,{% if site.email_address %}
   <span class="about_json_key">&quot;email&quot;</span>         : <span class="about_json_value">&quot;{{ site.email_address }}&quot;</span>,
+{% endif %}
   <span class="about_json_key">&quot;superpowers&quot;</span>   : [<span class="about_json_value">&quot;transforming carbohydrates into computer code&quot;</span>,
                      <span class="about_json_value">&quot;creating and fixing unexpected exceptions&quot;</span>,
                      <span class="about_json_value">&quot;confusing people by asking (too) many questions&quot;</span>],
@@ -30,7 +31,8 @@
 <div class="about_user_description"> {{site.user_description}} </div>
 
 <div class="about_details">
-  <pre class="about_user_description_want_more">if (you do not like too much text || not what you are looking for) { <span id="about_link"><a><span class="tooltip">contact me<span class="tooltiptext"><i class="fas fa-mail-bulk"></i> {{ site.email_address }}</span></span></a></span> } else { <span class="icon" id="about_link"><a href="#about" data-scroll>scroll <i class="fas fa-angle-double-down"></i></a></span> }</pre>
+  <pre class="about_user_description_want_more">if (you do not like too much text || not what you are looking for) { <span id="about_link"><a><span class="tooltip">contact me {% if site.email_address %}
+<span class="tooltiptext"><i class="fas fa-mail-bulk"></i> {{ site.email_address }}</span>{% endif %}</span></a></span> } else { <span class="icon" id="about_link"><a href="#about" data-scroll>scroll <i class="fas fa-angle-double-down"></i></a></span> }</pre>
 </div>
 
 </section>
