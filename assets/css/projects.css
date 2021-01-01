@@ -20,6 +20,11 @@
     margin-top: 10px;
 }
 
+.project_demo_video img {
+    max-height: 250px;
+    max-width: 100%;
+}
+
 .project_name {
     font-size: 26px;
     font-weight: bold;
