@@ -73,6 +73,12 @@
     width:max-content;
 }
 
+@media screen and (max-width: 768px) {
+    .about_interest_center {
+        width: auto;
+    }
+}
+
 .about_interest_list{
     list-style-type: circle;
     line-height: 2;

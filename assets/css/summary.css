@@ -44,3 +44,9 @@
     visibility: visible;
     opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+    .about_json, .about_user_description_want_more {
+        display: none;
+    }
+}
