@@ -30,7 +30,7 @@
 }
 
 .header .site-title {
-    font-size: 120px;
+    font-size: min(20vw, 120px);
     color: #FFFFFF;
     padding-top: 1em;
     margin-top: 1.25em;
