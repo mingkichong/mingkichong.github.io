@@ -1,0 +1,52 @@
+.summary_at {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #444444;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    border: 4px solid #EEEEEE;
+    top:-6px;
+    transform: translate(-50%, -100%);
+    width: max-content;
+    transition-duration: 0.25s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    transform: translate(0%, 2px);
+    top: 100%;
+    left: 50%;
+    margin-left: -6px;
+    margin-top: 4px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #EEEEEE transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .about_json, .about_user_description_want_more {
+        display: none;
+    }
+}

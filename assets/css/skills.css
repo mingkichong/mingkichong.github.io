@@ -1,0 +1,17 @@
+:root {
+    --skill-vertical-margin: 50px;
+    --skill-horizontal-margin: 100px;
+}
+
+.skills_list {
+    font-size: 16px;
+    text-align: center;
+    line-height: 2.5;
+    margin: 0 auto;
+    width:50%;
+}
+
+.skills_strong {
+    font-weight: bold;
+    font-size: 18px;
+}
