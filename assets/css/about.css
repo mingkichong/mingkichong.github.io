@@ -17,10 +17,11 @@
 .about_user_description {
     text-align: center;
     font-style: italic;
-    padding-top: 20px;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
-.about_rest_msg {
+.about_rest_joke {
     text-align: center;
     font-style: normal;
     padding-top: 0em;
