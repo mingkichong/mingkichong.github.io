@@ -27,6 +27,10 @@
     padding-top: 0em;
 }
 
+.about_rest_joke code {
+    font-weight: bold;
+}
+
 .about_user_description_want_more{
     font-style: normal;
     text-align: center;
