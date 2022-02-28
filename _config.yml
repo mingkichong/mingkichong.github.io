@@ -8,7 +8,7 @@ user_description:   'I am an unexpected exception that just happened to happen'
 email_address :     '<strong>hello<i class="fas fa-at"></i>mingkichong&bull;net</strong>'
 github_username:    'mingkichong'
 linkedin_username:  'mingkichong'
-youtube_username:   'unexpectedexception'
+#youtube_username:   'unexpectedexception'
 
 google_play_app:     'unexpected.exception'
 
