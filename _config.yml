@@ -12,10 +12,10 @@ youtube_username:   'unexpectedexception'
 
 google_play_app:     'unexpected.exception'
 
-include_about:       true
-include_project:     true
+include_about:       false
+include_project:     false
 include_publication: true
-include_skills:      true
+include_skills:      false
 include_summary:     true
 
 # Google-analytics
