@@ -23,13 +23,6 @@ include_publication: true
 include_skills:      false
 include_summary:     true
 
-# Google Analytics. Universal Analytics (UA-*) stopped processing data on
-# 1 July 2023, so the old UA-119687639-1 property is gone. _includes/google-analytics.html
-# now expects a GA4 measurement id ("G-XXXXXXXXXX"); until one is set here, no
-# analytics script is emitted at all.
-google-analytics:
-  id:
-
 # Not read by any template.
 #google-scholar:
 #  user: 'SGrCJqMAAAAJ'
