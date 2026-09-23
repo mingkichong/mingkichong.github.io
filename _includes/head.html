@@ -5,6 +5,11 @@
   {% seo %}
   {% feed_meta %}
 
+  {% comment %} Was an @import inside main.css, which serialised the request behind it. {% endcomment %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
   <link rel="stylesheet" href="{{ "/assets/css/header.css" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
   {% comment %} summary.css also holds the shared .tooltip rules used by the header. {% endcomment %}

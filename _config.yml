@@ -30,8 +30,9 @@ include_summary:     true
 google-analytics:
   id:
 
-google-scholar:
-  user: 'SGrCJqMAAAAJ'
+# Not read by any template.
+#google-scholar:
+#  user: 'SGrCJqMAAAAJ'
 
 publications:
   my_author_name:           'Ming Ki Chong'
