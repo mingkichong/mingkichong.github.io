@@ -17,10 +17,6 @@ linkedin_username:  'mingkichong'
 include_publication: true
 include_summary:     true
 
-# Not read by any template.
-#google-scholar:
-#  user: 'SGrCJqMAAAAJ'
-
 publications:
   my_author_name:           'Ming Ki Chong'
   highlight_my_author_name: true
