@@ -62,7 +62,6 @@
 }
 
 .pub_author_me{
-	/*text-decoration: underline;*/
 	color: #555555FF;
 }
 
@@ -76,15 +75,12 @@
 }
 
 .pub_journal{
-
 }
 
 .pub_j_volume {
-
 }
 
 .pub_j_number {
-
 }
 
 .pub_highlight {
@@ -122,7 +118,6 @@
   background-color: none;
   content: "\25BE";
   font-weight: bold;
-  /*margin-left: 10px;*/
   float: right;
 }
 

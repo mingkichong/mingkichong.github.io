@@ -122,7 +122,6 @@
     margin-top: var(--about-top-margin);
     text-align: center;
     font-size: 48px;
-    /*margin-bottom: var(--about-bottom-margin);*/
 }
 
 .about_up_scroll .icon {
@@ -131,7 +130,6 @@
     transition: all .7s;
     border-radius: 15%;
 }
-
 
 .about_up_scroll .icon:active,
 .about_up_scroll .icon:hover {
@@ -159,13 +157,11 @@
     animation: none;
 }
 
-
 @-webkit-keyframes pulses {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
-
   50% {
     -webkit-transform: scale3d(var(--about-pulse-scale-size), var(--about-pulse-scale-size), var(--about-pulse-scale-size));
     transform: scale3d(var(--about-pulse-scale-size), var(--about-pulse-scale-size), var(--about-pulse-scale-size));
@@ -173,7 +169,6 @@
     filter: alpha(opacity=40);
     opacity: .2;
   }
-
   to {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
     filter: alpha(opacity=100);
@@ -188,7 +183,6 @@
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
-
   50% {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
     filter: alpha(opacity=40);
@@ -196,7 +190,6 @@
     -webkit-transform: scale3d(var(--about-pulse-scale-size), var(--about-pulse-scale-size), var(--about-pulse-scale-size));
     transform: scale3d(var(--about-pulse-scale-size), var(--about-pulse-scale-size), var(--about-pulse-scale-size));
   }
-
   to {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
     filter: alpha(opacity=100);
