@@ -9,18 +9,15 @@
   <link rel="stylesheet" href="{{ "/assets/css/header.css" | prepend: site.baseurl }}">
   {% comment %} summary.css also holds the shared .tooltip rules used by the header. {% endcomment %}
   <link rel="stylesheet" href="{{ "/assets/css/summary.css" | prepend: site.baseurl }}">
-  {% if site.include_about %}
-    <link rel="stylesheet" href="{{ "/assets/css/about.css" | prepend: site.baseurl }}">
-  {% endif %}
-  {% if site.include_skills %}
-    <link rel="stylesheet" href="{{ "/assets/css/skills.css" | prepend: site.baseurl }}">
-  {% endif %}
-  {% if site.include_project %}
-    <link rel="stylesheet" href="{{ "/assets/css/projects.css" | prepend: site.baseurl }}">
-  {% endif %}
-  {% if site.include_publication %}
-    <link rel="stylesheet" href="{{ "/assets/css/publications.css" | prepend: site.baseurl }}">
-  {% endif %}
+  {% comment %}
+    about.css is misnamed: besides the about section it holds the shared
+    .about_* rules used by the layout, header, summary and footer, so it is
+    always needed. The rest are small enough not to be worth gating.
+  {% endcomment %}
+  <link rel="stylesheet" href="{{ "/assets/css/about.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/skills.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/projects.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/publications.css" | prepend: site.baseurl }}">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 

@@ -2,6 +2,10 @@
   --p-vertical-margin: 2px;
 }
 
+.pub_center {
+    text-align: center;
+}
+
 .pub_ul {
 	width:52.5%;
 }
@@ -18,6 +22,7 @@
 }
 
 .pub {
+    text-align: left;
 	margin-top: 10px;
 }
 .pub a {
