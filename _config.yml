@@ -22,7 +22,6 @@ publications:
   highlight_my_author_name: true
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
 
 exclude:
