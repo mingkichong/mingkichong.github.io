@@ -7,14 +7,14 @@
   <p><i class="fas fa-mail-bulk"></i> {{ site.email_address }}</p>
   {% endif %}
 </footer>
-<script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}"></script>
+<script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}"></script>
 {% comment %}
   Lightbox bundles jQuery, so it is loaded only for the sections that use it.
   The matching stylesheet is in _includes/head.html.
 {% endcomment %}
 {% if site.include_about or site.include_project %}
-<script src="{{ "/assets/js/lightbox-plus-jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/lightbox-plus-jquery.min.js" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}"></script>
 <script>
   lightbox.option({
     'positionFromTop': 80,
