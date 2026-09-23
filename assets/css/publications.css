@@ -2,8 +2,18 @@
   --p-vertical-margin: 2px;
 }
 
+/* Replaces the old <div align="center">. Browsers map that attribute to the
+   non-standard text-align: -webkit-center / -moz-center, which centres block
+   children as well as inline content; plain text-align: center does not, so the
+   fixed-width heading and list below are centred with auto margins instead. */
 .pub_center {
     text-align: center;
+}
+
+.pub_center > .pub_collapsible,
+.pub_center .pub_ul {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pub_ul {
