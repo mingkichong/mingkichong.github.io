@@ -15,13 +15,10 @@
   {% comment %} summary.css also holds the shared .tooltip rules used by the header. {% endcomment %}
   <link rel="stylesheet" href="{{ "/assets/css/summary.css" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
   {% comment %}
-    about.css is misnamed: besides the about section it holds the shared
-    .about_* rules used by the layout, header, summary and footer, so it is
-    always needed. The rest are small enough not to be worth gating.
+    about.css is misnamed: despite the name it holds the shared .about_* rules
+    used by the layout, header, summary and footer, so it is always needed.
   {% endcomment %}
   <link rel="stylesheet" href="{{ "/assets/css/about.css" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
-  <link rel="stylesheet" href="{{ "/assets/css/skills.css" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
-  <link rel="stylesheet" href="{{ "/assets/css/projects.css" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
   <link rel="stylesheet" href="{{ "/assets/css/publications.css" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -30,14 +27,5 @@
   <link rel="icon" type="image/png" sizes="32x32" href='{{ "/assets/icons/favicon-32x32.png" | prepend: site.baseurl }}'>
   <link rel="icon" type="image/png" sizes="16x16" href='{{ "/assets/icons/favicon-16x16.png" | prepend: site.baseurl }}'>
   <link rel="manifest" href='{{ "/assets/icons/manifest.json" | prepend: site.baseurl }}'>
-
-  {% comment %}
-    Lightbox is only used by the about and projects sections, so its stylesheet
-    is loaded only when one of them is rendered. The matching script lives in
-    _includes/footer.html.
-  {% endcomment %}
-  {% if site.include_about or site.include_project %}
-    <link rel="stylesheet" href="{{ "/assets/css/lightbox.min.css" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
-  {% endif %}
 
   <meta name="theme-color" content="#ffffff">

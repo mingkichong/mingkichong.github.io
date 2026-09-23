@@ -16,12 +16,6 @@
       {% if site.github_username %}
         <a aria-label="My Github" target="_blank" rel="noopener noreferrer" href="https://github.com/{{site.github_username}}"><i class="icon fab fa-github" aria-hidden="true"></i></a>
       {% endif %}
-      {% if site.youtube_username %}
-        <a aria-label="My YouTube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/{{site.youtube_username}}"><i class="icon fab fa-youtube-square" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if site.google_play_app %}
-        <a aria-label="My Android App" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/developer?id={{site.google_play_app}}"><i class="icon fab fa-google-play" aria-hidden="true"></i></a>
-      {% endif %}
     </div>
     <span class="about_link down">
       <a id="down-arrow" href="#summary" data-scroll>
@@ -32,15 +26,6 @@
       <div id="header-navbar" class="header-navbar">
         {% if site.include_summary %}
           <a class="link" href="#summary" id="summary-link" data-scroll>TLDR</a>
-        {% endif %}
-        {% if site.include_about %}
-          <a class="link" href="#about" id="about-link" data-scroll>About Me</a>
-        {% endif %}
-        {% if site.include_skills %}
-          <a class="link" href="#skills" id="skills-link" data-scroll>Skills</a>
-        {% endif %}
-        {% if site.include_project %}
-          <a class="link" href="#projects" id="projects-link" data-scroll>Projects</a>
         {% endif %}
         {% if site.include_publication %}
           <a class="link" href="#publications" id="publications-link" data-scroll>Publications</a>
