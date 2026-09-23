@@ -10,6 +10,10 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.9.1"
 
+# kramdown 2.x moved the GFM parser, which jekyll 3.9 asks for by default,
+# out into its own gem.
+gem "kramdown-parser-gfm", "~> 1.1"
+
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "jekyll-theme-architect"
 
@@ -20,6 +24,7 @@ gem "jekyll-theme-architect"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-seo-tag", "~> 2.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

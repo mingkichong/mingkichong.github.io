@@ -1,11 +1,16 @@
 # Site settings
 title:              'Ming_Ki Chong'
 description:        'this is my unexpected online exception'
+url:                'https://www.mingkichong.net'
+baseurl:            ''
+lang:               'en'
+author:             'Ming Ki Chong'
+timezone:           'America/Los_Angeles'
 
 # User settings
 username:           'Ming_Ki Chong'
 user_description:   'I am an unexpected exception that just happened to happen'
-email_address :     '<strong>hello<i class="fas fa-at"></i>mingkichong&bull;net</strong>'
+email_address:      '<strong>hello<i class="fas fa-at"></i>mingkichong&bull;net</strong>'
 github_username:    'mingkichong'
 linkedin_username:  'mingkichong'
 #youtube_username:   'unexpectedexception'
@@ -18,9 +23,12 @@ include_publication: true
 include_skills:      false
 include_summary:     true
 
-# Google-analytics
+# Google Analytics. Universal Analytics (UA-*) stopped processing data on
+# 1 July 2023, so the old UA-119687639-1 property is gone. _includes/google-analytics.html
+# now expects a GA4 measurement id ("G-XXXXXXXXXX"); until one is set here, no
+# analytics script is emitted at all.
 google-analytics:
-  id: "UA-119687639-1"
+  id:
 
 google-scholar:
   user: 'SGrCJqMAAAAJ'
@@ -29,4 +37,12 @@ publications:
   my_author_name:           'Ming Ki Chong'
   highlight_my_author_name: true
 
-exclude: ['package.json', 'src' , 'node_modules']
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - run.sh

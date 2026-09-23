@@ -1,5 +1,5 @@
 <div class="about_down_scroll">
-  <span id="about_link">
+  <span class="about_link">
     <a href="#publications" data-scroll>{% include arrow-down.html %}</a>
   </span>
 </div>
@@ -8,13 +8,13 @@
   <div class="user-details">
     <h1> Publications </h1>
   </div>
-  <div align="center">
+  <div class="pub_center">
     <h3 class="pub_collapsible">Journals</h3>
     <div class="pub_content">
-    <ul id="pub_ul">
+    <ul class="pub_ul">
       {% for pub_entry in site.data.publications %}
         {% if pub_entry.EntryType == "article" %}
-          <li id="pub" align="left">
+          <li class="pub">
             <span class="pub_title">{{pub_entry.Fields.title}}</span>
             <p>
               {% assign list_of_authors = pub_entry.Fields.author | replace: ' and ', ', ' %}
@@ -28,7 +28,7 @@
               <span class="pub_j_volume">{{pub_entry.Fields.volume}}</span>(<span class="pub_j_number">{{pub_entry.Fields.number}}</span>):
               <span class="pub_pages">{{pub_entry.Fields.pages}}</span> (<span class="pub_year">{{pub_entry.Fields.year}}</span>)
               <br/>
-              <span class="pub_link"><a href="{{pub_entry.Fields.url}}" target="_blank">{{pub_entry.Fields.doi}}</a></span>
+              <span class="pub_link"><a href="{{pub_entry.Fields.url}}" target="_blank" rel="noopener noreferrer">{{pub_entry.Fields.doi}}</a></span>
             </p>
           </li>
         {% endif %}
@@ -37,10 +37,10 @@
     </div>
     <h3 class="pub_collapsible">Conferences</h3>
     <div class="pub_content">
-    <ul id="pub_ul">
+    <ul class="pub_ul">
       {% for pub_entry in site.data.publications %}
         {% if pub_entry.EntryType == "inproceedings" %}
-        <li id="pub" align="left">
+        <li class="pub">
           <span class="pub_title">{{pub_entry.Fields.title}}</span>
           <p>
             {% assign list_of_authors = pub_entry.Fields.author | replace: ' and ', ', ' %}
@@ -53,7 +53,7 @@
             In <span class="pub_venue">{{pub_entry.Fields.booktitle}}</span>.
             Pages <span class="pub_pages">{{pub_entry.Fields.pages}}</span>.
             <br/>
-            <span class="pub_link"><a href="{{pub_entry.Fields.url}}" target="_blank">{{pub_entry.Fields.doi}}</a></span>
+            <span class="pub_link"><a href="{{pub_entry.Fields.url}}" target="_blank" rel="noopener noreferrer">{{pub_entry.Fields.doi}}</a></span>
           </p>
         </li>
         {% endif %}
@@ -62,41 +62,41 @@
   </div>
     <h3 class="pub_collapsible">Theses</h3>
     <div class="pub_content">
-    <ul id="pub_ul">
-      <li id="pub" align="left">
+    <ul class="pub_ul">
+      <li class="pub">
         <span class="pub_title">Understanding Spontaneous Device Association</span>
         <p>
           <span class="pub_author pub_author_me">Ming Ki Chong</span>
           <br/>
           PhD Thesis (Supervisor: Hans Gellersen), Lancaster University, 2013. 150 Pages.
           <br/>
-          <span class="pub_link"><a href="http://www.research.lancs.ac.uk/portal/en/publications/understanding-spontaneous-device-association(0849d7da-ed82-4cb7-9535-23eee545441e).html" target="_blank">Link</a></span>
+          <span class="pub_link"><a href="http://www.research.lancs.ac.uk/portal/en/publications/understanding-spontaneous-device-association(0849d7da-ed82-4cb7-9535-23eee545441e).html" target="_blank" rel="noopener noreferrer">Link</a></span>
         </p>
       </li>
-      <li id="pub" align="left">
+      <li class="pub">
         <span class="pub_title">Usable Authentication for Mobile Banking</span>
         <p>
           <span class="pub_author pub_author_me">Ming Ki Chong</span>
           <br/>
           MSc Thesis (Supervisor: Gary Marsden <a href="#memory_of_gary" data-scroll>*</a>), University of Cape Town, 2009. 155 Pages.
           <br/>
-          <a id="memory_of_gary" href="https://interactions.acm.org/archive/view/march-april-2014/in-memory-of-gary-marsden" target="_blank">* <span class="pub_link">In memory of Gary Marsden</span></a>
+          <a id="memory_of_gary" href="https://interactions.acm.org/archive/view/march-april-2014/in-memory-of-gary-marsden" target="_blank" rel="noopener noreferrer">* <span class="pub_link">In memory of Gary Marsden</span></a>
         </p>
       </li>
     </ul>
   </div>
     <h3 class="pub_collapsible">Academic Volunteering</h3>
     <div class="pub_content">
-    <ul id="pub_ul">
-      <li id="pub" align="left">
+    <ul class="pub_ul">
+      <li class="pub">
         <span class="pub_volunteer_pos">Registration Chair</span>
-        <div class="pub_volunteer_conf"><a href="http://www.ubicomp.org/ubicomp2014/organizers.php" target="_blank">The 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2014)</a></div>
+        <div class="pub_volunteer_conf"><a href="http://www.ubicomp.org/ubicomp2014/organizers.php" target="_blank" rel="noopener noreferrer">The 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2014)</a></div>
       </li>
-      <li id="pub" align="left">
+      <li class="pub">
         <span class="pub_volunteer_pos">Publicity Chair</span>
-        <div class="pub_volunteer_conf"><a href="https://mobilehci.acm.org/2015/committee.html" target="_blank">The 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2015)</a></div>
+        <div class="pub_volunteer_conf"><a href="https://mobilehci.acm.org/2015/committee.html" target="_blank" rel="noopener noreferrer">The 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2015)</a></div>
       </li>
-      <li id="pub" align="left">
+      <li class="pub">
         <span class="pub_volunteer_pos">Paper Reviewer</span>
         <div class="pub_volunteer_conf">Many journals and conferences related to HCI, UbiComp, and Mobile Computing (too many to be listed here)</div>
       </li>

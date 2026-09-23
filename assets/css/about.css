@@ -206,16 +206,16 @@
   }
 }
 
-#about_link {
+.about_link {
     font-weight: bold;
 }
 
-#about_link a {
+.about_link a {
     color: #006666;
     text-decoration: none;
 }
 
-#about_link a:hover {
+.about_link a:hover {
     text-decoration: underline;
 }
 

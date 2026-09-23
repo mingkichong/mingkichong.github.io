@@ -8,22 +8,22 @@
     </h3>
     <div class="header-icons">
       {% if site.email_address %}
-        <a aria-label="Send email"><span class="tooltip"><i class="icon fas fa-mail-bulk"></i><span class="tooltiptext">email&#58; &#91; {{ site.email_address }} &#93;</span></span></a>
+        <a aria-label="Show email address" tabindex="0" role="button"><span class="tooltip"><i class="icon fas fa-mail-bulk"></i><span class="tooltiptext">email&#58; &#91; {{ site.email_address }} &#93;</span></span></a>
       {% endif %}
       {% if site.linkedin_username %}
-        <a aria-label="LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="icon fab fa-linkedin" aria-hidden="true"></i></a>
+        <a aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="icon fab fa-linkedin" aria-hidden="true"></i></a>
       {% endif %}
       {% if site.github_username %}
-        <a aria-label="My Github" target="_blank" href="https://github.com/{{site.github_username}}"><i class="icon fab fa-github" aria-hidden="true"></i></a>
+        <a aria-label="My Github" target="_blank" rel="noopener noreferrer" href="https://github.com/{{site.github_username}}"><i class="icon fab fa-github" aria-hidden="true"></i></a>
       {% endif %}
       {% if site.youtube_username %}
-        <a aria-label="My YouTube" target="_blank" href="https://www.youtube.com/user/{{site.youtube_username}}"><i class="icon fab fa-youtube-square" aria-hidden="true"></i></a>
+        <a aria-label="My YouTube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/{{site.youtube_username}}"><i class="icon fab fa-youtube-square" aria-hidden="true"></i></a>
       {% endif %}
       {% if site.google_play_app %}
-        <a aria-label="My Android App" target="_blank" href="https://play.google.com/store/apps/developer?id={{site.google_play_app}}"><i class="icon fab fa-google-play" aria-hidden="true"></i></a>
+        <a aria-label="My Android App" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/developer?id={{site.google_play_app}}"><i class="icon fab fa-google-play" aria-hidden="true"></i></a>
       {% endif %}
     </div>
-    <span id="about_link" class="down">
+    <span class="about_link down">
       <a id="down-arrow" href="#summary" data-scroll>
         {% include arrow-down-top.html %}
       </a>
@@ -49,7 +49,5 @@
     </div>
   </div>
 </section>
-<span class="">
-  <a id="header-site-link" class="header-site-link link" href="#body" data-scroll>Ming_Ki Chong</a>
-<span>
+<a id="header-site-link" class="header-site-link link" href="#body" data-scroll>Ming_Ki Chong</a>
 <script src="{{ "/assets/js/header.js" | prepend: site.baseurl }}"></script>

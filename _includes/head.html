@@ -1,35 +1,41 @@
 
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% seo %}
+  {% feed_meta %}
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/css/about.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/css/publications.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/css/skills.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/css/projects.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/header.css" | prepend: site.baseurl }}">
+  {% comment %} summary.css also holds the shared .tooltip rules used by the header. {% endcomment %}
   <link rel="stylesheet" href="{{ "/assets/css/summary.css" | prepend: site.baseurl }}">
+  {% if site.include_about %}
+    <link rel="stylesheet" href="{{ "/assets/css/about.css" | prepend: site.baseurl }}">
+  {% endif %}
+  {% if site.include_skills %}
+    <link rel="stylesheet" href="{{ "/assets/css/skills.css" | prepend: site.baseurl }}">
+  {% endif %}
+  {% if site.include_project %}
+    <link rel="stylesheet" href="{{ "/assets/css/projects.css" | prepend: site.baseurl }}">
+  {% endif %}
+  {% if site.include_publication %}
+    <link rel="stylesheet" href="{{ "/assets/css/publications.css" | prepend: site.baseurl }}">
+  {% endif %}
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <link rel="apple-touch-icon" sizes="180x180" href='{{ "/assets/icons/apple-touch-icon.png" | prepend: site.baseurl }}'>
   <link rel="icon" type="image/png" sizes="32x32" href='{{ "/assets/icons/favicon-32x32.png" | prepend: site.baseurl }}'>
-  <link rel="icon" type="image/png" sizes="16x16" href='{{ "/assets/icons//favicon-16x16.png" | prepend: site.baseurl }}'>
-  <link href="{{ "/assets/css/lightbox.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-  {{ <link rel="manifest" href="/manifest.json"> }}
+  <link rel="icon" type="image/png" sizes="16x16" href='{{ "/assets/icons/favicon-16x16.png" | prepend: site.baseurl }}'>
+  <link rel="manifest" href='{{ "/assets/icons/manifest.json" | prepend: site.baseurl }}'>
+
+  {% comment %}
+    Lightbox is only used by the about and projects sections, so its stylesheet
+    is loaded only when one of them is rendered. The matching script lives in
+    _includes/footer.html.
+  {% endcomment %}
+  {% if site.include_about or site.include_project %}
+    <link rel="stylesheet" href="{{ "/assets/css/lightbox.min.css" | prepend: site.baseurl }}">
+  {% endif %}
 
   <meta name="theme-color" content="#ffffff">
-  <script src="{{ "/assets/js/lightbox-plus-jquery.min.js" | prepend: site.baseurl }}"></script>
-
-  <script>
-    lightbox.option({
-      'positionFromTop': 80,
-      'alwaysShowNavOnTouchDevices': true,
-      'wrapAround': true,
-      'resizeDuration': 300
-    })
-  </script>

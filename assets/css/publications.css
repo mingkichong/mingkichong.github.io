@@ -2,7 +2,7 @@
   --p-vertical-margin: 2px;
 }
 
-#pub_ul {
+.pub_ul {
 	width:52.5%;
 }
 
@@ -17,17 +17,17 @@
 	text-decoration: underline;
 }
 
-#pub {
+.pub {
 	margin-top: 10px;
 }
-#pub a {
+.pub a {
 	color: #006666;
 	text-decoration: none;
 }
-#pub a:hover {
+.pub a:hover {
 	text-decoration: underline;
 }
-#pub p {
+.pub p {
 	font-size: 14px;
 	margin-top: var(--p-vertical-margin);
 	margin-bottom: var(--p-vertical-margin);

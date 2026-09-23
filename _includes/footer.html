@@ -1,16 +1,27 @@
-<!-- <div class="about_up_scroll"> -->
-  <span id="about_link" class="down">
-    <a href="#body" data-scroll>{% include arrow-up-bottom.html %}</a>
-  </span>
-<!-- </div> -->
+<span class="about_link down">
+  <a href="#body" data-scroll>{% include arrow-up-bottom.html %}</a>
+</span>
 <footer class="footer">
-  <p><i class="far fa-copyright"></i> {{ site.time | date: '%Y' }} &bull; {{site.username}} &bull; Last updated: February 2022</p>
+  <p><i class="far fa-copyright"></i> {{ site.time | date: '%Y' }} &bull; {{site.username}} &bull; Last updated: {{ site.time | date: '%B %Y' }}</p>
   {% if site.email_address %}
   <p><i class="fas fa-mail-bulk"></i> {{ site.email_address }}</p>
   {% endif %}
-  <!-- <p>Build with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/nrandecker/particle" target="_blank">Particle Theme</a></p> -->
 </footer>
-<!-- <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
 <script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+{% comment %}
+  Lightbox bundles jQuery, so it is loaded only for the sections that use it.
+  The matching stylesheet is in _includes/head.html.
+{% endcomment %}
+{% if site.include_about or site.include_project %}
+<script src="{{ "/assets/js/lightbox-plus-jquery.min.js" | prepend: site.baseurl }}"></script>
+<script>
+  lightbox.option({
+    'positionFromTop': 80,
+    'alwaysShowNavOnTouchDevices': true,
+    'wrapAround': true,
+    'resizeDuration': 300
+  })
+</script>
+{% endif %}
 {% include google-analytics.html %}
