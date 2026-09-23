@@ -15,7 +15,7 @@ github_username:    'mingkichong'
 linkedin_username:  'mingkichong'
 #youtube_username:   'unexpectedexception'
 
-google_play_app:     'unexpected.exception'
+#google_play_app:     'unexpected.exception'
 
 include_about:       false
 include_project:     false
